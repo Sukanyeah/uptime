@@ -1,36 +1,38 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: sukanyeah
+repo: uptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Sukanyeah.com
+    url: https://www.sukanyeah.com
+  - name: 1Account.org
+    url: https://www.1account.org
+  - name: Sukanyeah Blog
+    url: https://ml.sukanyeah.com
+  - name: Sukanyeah No Hello
+    url: https://nohello.sukanyeah.com
+  - name: Sukanyeah.in
+    url: https://www.sukanyeah.in
+  - name: Syah.in
+    url: https://www.syah.in
+  - name: Sukanyeah Solar
+    url: https://solar.sukanyeah.com
+  - name: Short URL System
+    url: https://go.syah.in
+  - name: Short URL System (SK)
+    url: https://go.sukanyeah.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.sukanyeah.com
+  logoUrl: https://img.syah.in/mSlUdQrdFuKV4JOz/logos/sukanyeah_fly.svg
+  name: Sukanyeah
+  introTitle: "**Sukanyeah** Uptime Status."
+  introMessage:
   navbar:
-    - title: Status
-      href: /
+    - title: Blog
+      href: https://ml.sukanyeah.com/
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/$OWNER
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
